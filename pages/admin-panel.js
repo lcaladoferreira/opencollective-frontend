@@ -52,7 +52,7 @@ export const adminPanelQuery = gqlV2/* GraphQL */ `
           settings
         }
       }
-      ... on Collective {
+      ... on AccountWithHost {
         isApproved
       }
     }
